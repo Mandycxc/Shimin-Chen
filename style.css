@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@100&family=Playfair+Display&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  margin: 0 auto;
+  width: 1000px;
+}
+body{
+  margin:0;
+  padding: 0;
+  font-family: arial;
+  background-color: #F0E7D8;
+
+}
+
+
+.img-Myself{
+  width: 300px;
+  height: 400px;
+
+}
+
+nav{
+  width: 85;
+  height: 85px;
+  background-color: #AB9B96;
+
+}
+
+u1{
+margin-right: 10px;
+}
+
+u1 li{
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+}
+
+u1 li a{
+  display: block;
+text-decoration: none;
+font-size: 10px;
+font-family: arial;
+color: #1e1e1e;
+padding: 0 20px;
+}
+
+
+h2{
+  color: #343434;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  text-align: center;
+  padding-right: 250px;
+}
+
+h3{
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+}
+
+h4{
+  background-color: white;
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  padding-top: 20px;
+  text-align: center;
+
+}
+
+h5{
+  color:#343434;
+font-size: 20px;
+background-color: #D4C5C7;
+text-align: center;
+padding-top: 20px;
+font-family: 'Playfair Display', serif;
+
+}
+
+
+.container {
+display: flex;
+
+
+
+}
+
+img{
+max-width: 70%
+
+
+}
+
+.collage{
+width: 700px;
+height:250px;
+
+}
+
+
+.img-col > div{
+  flex-basis: 50%
+}
+
+.box{
+
+  width: 3000px;
+  height: 10px;
+  padding-top: 0px;
+
+}
+
+.box2{
+  width: 400px;
+  height: 10px;
+  padding-top: 0px;
+
+
+}
+
+
+.vl {
+  border-left: 1000px solid #343434;
+  height: 2px;
+
+
+}
+
+p{
+  text-decoration: none;
+
+}
+
+.temple{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.video{
+  padding-left: 100px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+df
