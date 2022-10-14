@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+/* font-family: 'Inconsolata', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+/* font-family: 'Inconsolata', monospace; */
 *{
   margin: 0;
   padding: 0;
@@ -11,7 +14,8 @@ section{
   width:100%;
   height:100vh;
   color:#fff;
-  background:linear-gradient(-45deg,  #B19CD8, #BEA9DF, #CCB7E5, #D9C4EC,  #E6D1F2);
+  background:linear-gradient(-45deg, #F0E3F7
+, #CCB7E5,  #CCB7E5, #D9C4EC,  #F5EDFA);
   postion: relative;
 }
 
@@ -84,7 +88,7 @@ html {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 .container {
@@ -98,8 +102,38 @@ html {
   display: table;
 }
 
-.title {
-  color: grey;
+.Meshmixer {
+  color: white;
+  background-color: blue;
+  width: 80px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  font-size: 16px;
+}
+
+/* #parent {
+    width: 100%;
+    height: 90px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.child {
+    display: inline-block;
+    font-size: 16px;
+    background-color: red;
+    float: left;
+
+} */
+
+.Sketchfab {
+  color: white;
+  background-color: blue;
+  width: 80px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  font-size: 16px;
+  display: inline-block;
 }
 
 .button {
@@ -109,9 +143,10 @@ html {
   padding: 8px;
   color: white;
   background-color: #000;
-  text-align: center;
+  text-align: left;
   cursor: pointer;
-  width: 100%;
+  width: 40%;
+
 }
 
 .button:hover {
@@ -126,10 +161,19 @@ html {
 
 h2{
   color: black;
-  font-size:16px;
+  font-size:30px;
+  text-align: left;
+  font-family: 'Inconsolata', monospace;
+  padding-top: 10px;
+  padding-bottom: 2px;
 }
 
 p{
 color: black;
-font-size:12px;
+font-size:16px;
+text-align: left;
+  padding-top: 5px;
+font-weight: 100;
+font-family: 'Inconsolata', monospace;
+padding-bottom: 10px;
 }
