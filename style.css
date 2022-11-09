@@ -15,7 +15,7 @@
 
 section{
   width:100%;
-  height:100%;
+  height:150vh;
   color:#fff;
   background:linear-gradient(-45deg, #F0E3F7
 , #CCB7E5,  #CCB7E5, #D9C4EC,  #F5EDFA);
@@ -172,7 +172,7 @@ h2{
 }S
 
 p{
-color: black;
+color:black;
 font-size:16px;
 text-align: left;
   padding-top: 5px;
@@ -195,4 +195,11 @@ position: relative;
 padding-left: 480px;
 font-family: 'Inconsolata', monospace;
 font-size: 30pt;
+}
+
+h5{
+text-align:center;
+position: relative;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 18pt;
 }
