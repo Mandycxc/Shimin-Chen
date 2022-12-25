@@ -8,7 +8,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+background:linear-gradient(-45deg, #F0E3F7
+, #CCB7E5,  #CCB7E5, #D9C4EC,  #F5EDFA);
 
+}
 
 section{
   width:100%;
@@ -16,7 +20,7 @@ section{
   color:#fff;
   background:linear-gradient(-45deg, #F0E3F7
 , #CCB7E5,  #CCB7E5, #D9C4EC,  #F5EDFA);
-  postion: relative;
+
 }
 
 header{
@@ -86,8 +90,12 @@ html {
     display: block;
   }
 }
-
+.card:hover {
+  transform: scale(1.02);
+  transition: all 1s
+}
 .card {
+  overflow: hidden;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -154,8 +162,8 @@ html {
 }
 
 .wrapper{
-  padding-right: 100px;
-  padding-left: 100px;
+ width:1100px;
+ margin:0 auto;
 
 }
 
@@ -197,4 +205,11 @@ padding: 0 10px 0 0;
 
 h5{
   font-size: 20px;
+}
+
+footer{
+  text-align: center;
+ padding: 3px;
+ /* background-color: DarkSalmon; */
+ color: white;
 }
