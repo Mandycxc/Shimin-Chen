@@ -1,70 +1,252 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
 
-  <!DOCTYPE html>
-  <html>
-  <head>
-  <title>Mandy Chen | 3d</title>
-  <link rel="stylesheet" href="style.css">
-  <section>
-  <header>
-  <a href="index.html"><img src="name.png" alt="" style="width:200px;height:60px;"></a>  <nav>
-    <ul class="nav_links"
-    <li><a href=""></a><li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="work.html">Works</a></li>
-    <li><a href="gallery.html">Photograph</a></li>
-    <li><a href="https://www.instagram.com/mandycxc_/">Instagram</a></li>
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
 
-  </ul>
-  </nav>
-  </header>
-  </head>
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  padding-left: 0px;
+  padding-right: 0px;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
 
-  <body>
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: sticky;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: purple;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: white;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+<head>
+<title>Mandy Chen | 3d</title>
+<link rel="stylesheet" href="style.css">
+<section>
+<header>
+<a href="index.html"><img src="name.png" alt="" style="width:200px;height:60px;"></a>  <nav>
+  <ul class="nav_links"
+  <li><a href=""></a><li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="work.html">Works</a></li>
+  <li><a href="gallery.html">Photograph</a></li>
+  <li><a href="https://www.instagram.com/mandycxc_/">Instagram</a></li>
+
+</ul>
+</nav>
+</header>
+</head>
+
+<body>
 
 
-      <div class="wrapper">
+    <div class="wrapper">
 
-  <h1>Greed</h1>
-  <br>
-  <br>
-  <center>
-  <img src="images/greedy2.png" alt=""  style="width:600px;height:400px;">
-  <img src="images/greedy3.png"  alt=""
-  style="width:600px;height:400px;">
-  <img src="images/greedy4.png" alt=""
-  style="width:600px;height:400px;">
-  <br></br>
-  <br></br>
-  <img src="images/greedy5.png"  alt=""
-  style="width:600px;height:400px;">
-  <img src="images/greedy6.png"  alt=""
-  style="width:600px;height:400px;">
-  <img src="images/greedy7.png"  alt=""
-  style="width:600px;height:400px;">
-  <br></br>
-  <br></br>
-  <img src="images/greedy8.png"  alt=""
-  style="width:600px;height:400px;">
-  <img src="images/greedy9.png"  alt=""
-  style="width:600px;height:400px;">
-  <img src="images/greedy10.png"  alt=""
-  style="width:600px;height:400px;">
-  </center>
-  <br></br>
-  <h6> Description </h6>
-  <br>
-  <div id="line"></div>
-  <br>
+<h1>Healer</h1>
 
-      <br>
-  <h5>My work explores the relationship between ancient Chinese text and modern 3D model tools. The ancient Chinese text from “Classic of Mountains and Seas” explored various mythologies of geography and beasts from China. It records up to 500 mountains and 75 beasts. Studies found that the book matches the current geography from nowadays. South mountain series is one of the series of the book, the first chapter “Magpie Mountain” introduce an entry of the text. The Magpie Mountain shows the audience what the ancient Chinese text describes so that the audience can dive into them and find out its beauty of it. Audiences will enter Magpie mountain with a path guiding them and they will see the landscape through the path.
-    <br>
-      <br>
-  Ever since I was a kid I have been fascinated by Chinese mythologies and as I grew up, I learned that there are many tools that allow us to make the impossible come true. I chose Blender as my main tool for bringing the Magpie mountain into life and with the ancient Chinese music to bring the audience in. The magic scene of ancient and modern conflict with each other to create a whole new world for audiences to experience. <h5>
-    </div>
+<br>
+<br>
+<center>
+<img src="images/mm1.png" alt=""  style="width:1000px;height:550px;">
+<br>
+<br>
+<button type="button" onclick="location.href='https://newart.city/world/magpie-mountain'">View on New Art City</button>
+<img src="images/mm2.png"  alt=""
+style="width:1000px;height:550px;">
+<img src="images/mm3.png"  alt=""
+style="width:1000px;height:550px;">
 
-  <br></br><br></br>
-  <br></br>
-  <br></br>
-  </body>
-  </html>
+<br>
+<br>
+<h6> Model in Blender </h6>
+<br>
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="images/mm4.png" style="width:100%">
+    <div class="text">Brozen Tree</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="images/mm5.png" style="width:100%">
+    <div class="text">JiuCai</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="images/mm6.png" style="width:100%">
+    <div class="text">Temple</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="images/mm7.png" style="width:100%">
+    <div class="text">Rock</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="images/mm8.png" style="width:100%">
+    <div class="text">Osmanthus Tree</div>
+  </div>
+
+
+  </div>
+
+  <!-- Next and previous buttons -->
+  <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+</div>
+
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div><br>
+<br>
+<br>
+<br>
+
+
+</center>
+<br></br>
+<br>
+<br>
+<h6> Description </h6>
+<br>
+<div id="line"></div>
+<br>
+
+
+<h5>
+  This is a 3D space base on an ancient text from the book “Classic of Mountains and Seas” written from 4th century BCE to 220th BCE(Qin Dynasty). The book was famously known by the mythic animals and plants. The space is a combination of the book and ancient buildings/ items from Qin Dynasty. I created this space because I would like to replica the fantasy of the landscape from the book and buildings we can’t seen by ourselves anymore.
+   </h5>
+<h5></h5>
+ </h5>
+ <h6> Reference </h6>
+ <br>
+ <div id="line"></div>
+ <br>
+<h5>Night Light: https://www.bmimages.compreview.asp?image=00025329001&itemw=4&itemf=0001&itemstep=1&itemx=1
+</h5>
+<h5>Broze Tree: https://zh.wikipedia.org/wiki/%E9%9D%92%E9%93%9C%E7%A5%9E%E6%A0%91 </h5>
+
+  </div>
+
+<br></br><br></br>
+<br></br>
+<br></br>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+
+</body>
+</html>
